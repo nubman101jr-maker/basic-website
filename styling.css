@@ -1,0 +1,78 @@
+body{
+    background-image: url("https://wallpapers.com/images/hd/grey-texture-background-d29qkeb2b46ygint.jpg");
+    background-repeat: no-repeat;
+}
+
+
+:root {
+    --main-color: white;
+}
+
+h1 {
+    color: var(--main-color);
+}
+
+.tableList{
+    display:flex;
+    justify-content:center;
+    gap:2rem;
+
+}
+
+#name{
+    font-weight: bold;
+    color:antiquewhite;
+    text-shadow: 0.2rem;
+
+}
+
+
+.videoDiv{
+    display:flex;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.tableDiv{
+
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: grey;
+}
+
+div iframe{
+    border: 0.2rem solid white;
+    border-radius: 0.5rem;
+}
+
+
+div > p{
+    font-family: overpass;
+    color:white;
+    font-size: 1rem;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 0.1rem solid white;
+    padding: 0.6rem 1.2rem;
+    text-align: center;
+}
+
+thead {
+    background-color: var(--main-color);
+    color: black;
+}
+
+caption {
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
